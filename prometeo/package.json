@@ -2,7 +2,7 @@
   "name": "prometeo",
   "version": "1.0.0",
   "private": true,
-  "description": "prometeo",
+  "description": "Prometeo",
   "author": "Marvalero",
   "keywords": [
     "gatsby"
@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "gatsby": "^2.26.1",
-    "gatsby-plugin-google-analytics": "^2.10.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
