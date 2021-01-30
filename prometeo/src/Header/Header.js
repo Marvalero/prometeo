@@ -1,27 +1,32 @@
-import { AppBar, Toolbar, Typography, Button, makeStyles } from '@material-ui/core';
+import { AppBar, Toolbar, Typography, Button, withStyles, IconButton } from '@material-ui/core';
+import MenuIcon from '@material-ui/icons/Menu';
 import React, { Component } from 'react';
 
-class Header extends Component {
-	useStyles = makeStyles(() => ({
-		header: {
-			backgroundColor: "DarkOrange"
-		},
-	}));
+const styles = theme => ({
+  root: {
+    backgroundColor: "DarkOrange"
+  }
+});
 
+class Header extends Component {
 	classes = {
 		title: "PRometeooo",
 		menuButton: "Blah"
 	}
 	render() {
+		const { classes } = this.props;
 		return(
-			<AppBar position="static">
+			<AppBar position="static" className={classes.root}>
 			  <Toolbar>
-				  <Typography variant="h6">Prometeo</Typography>
-				  <Button color="inherit">Login</Button>
+				<IconButton edge="start" color="inherit" aria-label="menu">
+					<MenuIcon />
+				</IconButton>
+				<Typography variant="h6">Prometeo</Typography>
+				<Button color="inherit">Login</Button>
 			  </Toolbar>
 			</AppBar>
 		)
 	}
 }
 
-export default Header;
+export default withStyles(styles, { withTheme: true })(Header);
