@@ -26,6 +26,11 @@ const styles = theme => ({
       size: "18px",
       marginLeft: "38px",
    },
+  header: {
+    backgroundColor: "Orange",
+    paddingRight: "79px",
+    paddingLeft: "118px",
+  },
   toolbar: {
     display: "flex",
     justifyContent: "space-between",
@@ -73,6 +78,7 @@ class Header extends Component {
 	render() {
 		const { classes } = this.props;
 		return(
+		    <div className={classes.header}>
 			<AppBar position="static" className={classes.root}>
 			  <Toolbar className={classes.toolbar}>
 				<IconButton edge="start" color="inherit" aria-label="menu">
@@ -82,6 +88,7 @@ class Header extends Component {
 				  <div className={classes.menuButton}>{this.getMenuButtons()}</div>
 			  </Toolbar>
 			</AppBar>
+		    </div>
 		)
 	}
 }
