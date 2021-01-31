@@ -24,6 +24,9 @@ class Popular extends Component {
 			<div className="Popular">
 			    <h2>Servicios Populares</h2>
 			    <Carousel
+			      autoPlay={3000}
+			      stopAutoPlayOnHover
+			      offset={50}
 			      arrowLeft={<Icon className="icon-example" name="arrow-left" />}
 			      arrowRight={<Icon className="icon-example" name="arrow-right" />}
 			      addArrowClickHandler
