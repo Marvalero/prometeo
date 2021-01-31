@@ -9,8 +9,8 @@ import Popular from './Popular/Popular';
 class App extends Component {
     state = {
       services: [
-	      { name: "Tuwalu", description: "build yout own branding", popular: true },
-	      { name: "Deliveroo", description: "deliver your food", popular: true },
+	      { name: "Tuwalu", description: "Personaliza tu uniforme", popular: true, imageName: "tuwalu-vertical.png" },
+	      { name: "Deliveroo", description: "Haz reparto a domicilio", popular: true, imageName: "deliveroo-vertical.png"},
               { name: "Google Analytics", description: "get your analytics" }
       ]
     }

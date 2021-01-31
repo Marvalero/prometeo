@@ -87,7 +87,7 @@ class Header extends Component {
 		const { classes } = this.props;
 		return(
 		    <div className={classes.header}>
-			<AppBar position="static" className={classes.root}>
+			<AppBar position="fixed" className={classes.root}>
 			  <Toolbar className={classes.toolbar}>
 				<IconButton edge="start" color="inherit" aria-label="menu">
 					<MenuIcon />
