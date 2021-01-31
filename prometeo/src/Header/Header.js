@@ -26,6 +26,13 @@ const styles = theme => ({
       size: "18px",
       marginLeft: "38px",
    },
+   importantMenuButton: {
+      color: "RoyalBlue",
+      fontFamily: "Open Sans, sans-serif",
+      fontWeight: 700,
+      size: "18px",
+      marginLeft: "38px",
+   },
   header: {
     backgroundColor: "Orange",
     paddingRight: "79px",
@@ -54,11 +61,12 @@ class Header extends Component {
 	  {
 	    label: "Entrar",
 	    href: "/login",
+	    important: true
 	  },
 	];
 
-	getMenuButtons = () => {
-	    return this.headersData.map(({ label, href }) => {
+	getMenuButtons = (classimportant, classbutton) => {
+	    return this.headersData.map(({ label, href, important }) => {
 	      return (
 		<Button
 		  {...{
@@ -66,8 +74,8 @@ class Header extends Component {
 		    color: "inherit",
 		    to: href,
 		    component: RouterLink,
-		    className: this.props["className"]
 		  }}
+			className={ important ? classimportant : classbutton}
 		>
 		  {label}
 		</Button>
@@ -85,7 +93,7 @@ class Header extends Component {
 					<MenuIcon />
 				</IconButton>
 				<Typography variant="h6" component="h1" className={classes.logo}>Prometeo</Typography>
-				  <div className={classes.menuButton}>{this.getMenuButtons()}</div>
+				  <div className={classes.menuButton}>{this.getMenuButtons(classes.importantMenuButton, classes.menuButton)}</div>
 			  </Toolbar>
 			</AppBar>
 		    </div>

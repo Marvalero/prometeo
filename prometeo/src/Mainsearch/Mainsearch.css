@@ -1,0 +1,42 @@
+.Mainsearch {
+   padding: 130px;
+   text-align: left;
+   background-image: url(./jose.png);
+   background-size: 600px;
+   background-repeat: no-repeat;
+   background-position: right;
+   background-color: Orange;
+}
+
+.Mainsearch-div {
+   display:flex;
+   flex-direction:column;
+   flex-basis: 20%;
+   display: inline-flex;
+}
+
+.Mainsearch-title {
+   color: Orange;
+   background: Black;
+   font-size: 75px;
+   line-height: 74px;
+   font-weight: 700;
+   margin: 0 5px 24px;
+   float: left;
+   padding: 10px;
+   margin: 0 5px 24px;
+   font-family: 'Libre Baskerville', cursive;
+}
+
+.Mainsearch-h2 {
+   color: Beige;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 300;
+   line-height: 32px;
+   margin: 0 0 72px;
+   text-align: center;
+   }
+
+
+.Mainsearch-p { color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: justify; text-justify: inter-word; }
