@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://marvalero.github.io/prometeo/static/css/main.2cc6d2ba.chunk.css",
-    "main.js": "https://marvalero.github.io/prometeo/static/js/main.7de0b249.chunk.js",
-    "main.js.map": "https://marvalero.github.io/prometeo/static/js/main.7de0b249.chunk.js.map",
+    "main.js": "https://marvalero.github.io/prometeo/static/js/main.c41bb654.chunk.js",
+    "main.js.map": "https://marvalero.github.io/prometeo/static/js/main.c41bb654.chunk.js.map",
     "runtime-main.js": "https://marvalero.github.io/prometeo/static/js/runtime-main.4d46a374.js",
     "runtime-main.js.map": "https://marvalero.github.io/prometeo/static/js/runtime-main.4d46a374.js.map",
     "static/css/2.cc4c380a.chunk.css": "https://marvalero.github.io/prometeo/static/css/2.cc4c380a.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.cc4c380a.chunk.css",
     "static/js/2.13c9319f.chunk.js",
     "static/css/main.2cc6d2ba.chunk.css",
-    "static/js/main.7de0b249.chunk.js"
+    "static/js/main.c41bb654.chunk.js"
   ]
 }
