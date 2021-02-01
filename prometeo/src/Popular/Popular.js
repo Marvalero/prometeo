@@ -4,17 +4,19 @@ import Icon from 'react-fa';
 import '@brainhubeu/react-carousel/lib/style.css';
 import './Popular.css'
 import ReactPlayer from "react-player";
+import { Link as RouterLink } from "react-router-dom";
 
 class Popular extends Component {
-	serviceImage = (name, description, url) => {
+	serviceImage = (company, slogan, videourl) => {
 		return (
-			<div className="Logo" style={{ 
-      backgroundImage: `url(${process.env.PUBLIC_URL + 'Mainsearch/jose.png'})`}}>
-				<h2 className="Logo-h2">{name}</h2>
-				<p className="Logo-p">{description}</p>
+			<div className="Basic">
+				<h2 className="Basic-h2">{slogan}</h2>
+				<p className="Basic-p">
+				  <RouterLink to={"/company/" + company}>{company}</RouterLink>
+				</p>
 				<ReactPlayer
 					className='react-player'
-					url={url}
+					url={videourl}
 					muted={true}
 					playing={true}
 					width="100%"
@@ -27,7 +29,7 @@ class Popular extends Component {
 	render() {
 		return (
 			<div className="Popular">
-			    <h2 className="Popular-h2">Servicios Populares</h2>
+			    <h2 className="Main-h2">Servicios Populares</h2>
 			    <Carousel
 			      autoPlay={5000}
 			      stopAutoPlayOnHover
@@ -37,7 +39,7 @@ class Popular extends Component {
 			      addArrowClickHandler
 			    >
 				{this.props.services.map(service => {
-					return this.serviceImage(service["name"], service["description"], service["url"])
+					return this.serviceImage(service["company"], service["slogan"], service["videourl"])
 				})}
 			    </Carousel>
 			</div>

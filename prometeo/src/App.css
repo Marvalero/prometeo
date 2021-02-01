@@ -37,3 +37,42 @@
     transform: rotate(360deg);
   }
 }
+
+.Main-h2 {
+   color: DarkOrange;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 32px;
+   margin: 0 0 30px;
+   text-align: center;
+   }
+
+
+.Basic {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 30vw;
+}
+
+.Basic-h2 {
+   color: Black;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 32px;
+   margin: 0 0 5px;
+   text-align: center;
+}
+
+.Basic-p {
+   font-family: 'Helvetica Neue', sans-serif;
+   font-size: 14px;
+   line-height: 24px;
+   margin: 0 0 5px;
+   text-align: justify;
+   text-justify: inter-word;
+  }
+
+
