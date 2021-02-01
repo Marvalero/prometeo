@@ -8,7 +8,7 @@ class Mainsearch extends Component {
 			<div className="Mainsearch">
 			  <ReactPlayer
 			        className='react-player'
-				url="https://www.youtube.com/watch?v=L14QdAmPjPI"
+				url="https://www.youtube.com/watch?v=L14QdAmPjPI&t=55s"
 				muted={true}
 				playing={true}
 				width="100%"
