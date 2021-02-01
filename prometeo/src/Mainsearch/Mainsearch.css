@@ -1,7 +1,7 @@
 .Mainsearch {
-   padding: 130px;
+   padding: 70px 0px 0px;
+   height: 800px;
    text-align: left;
-   background-image: url(./jose.png);
    background-size: 600px;
    background-repeat: no-repeat;
    background-position: right;
@@ -9,15 +9,18 @@
 }
 
 .Mainsearch-div {
+   position: absolute;
+   top: 200px;
+   left: 100px;
    display:flex;
    flex-direction:column;
-   flex-basis: 20%;
    display: inline-flex;
 }
 
 .Mainsearch-title {
-   color: Orange;
-   background: Black;
+   color: DarkOrange;
+   text-shadow: 2px 2px #ff0000;
+   background-color: Beige;
    font-size: 75px;
    line-height: 74px;
    font-weight: 700;
@@ -30,6 +33,7 @@
 
 .Mainsearch-h2 {
    color: Beige;
+   text-shadow: 2px 2px DarkOrange;
    font-family: 'Open Sans', sans-serif;
    font-size: 30px;
    font-weight: 300;
@@ -38,5 +42,19 @@
    text-align: center;
    }
 
-
 .Mainsearch-p { color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: justify; text-justify: inter-word; }
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  display: block;
+  top: 0;
+  left: 0;
+  display:flex;
+  flex: 0 0 100%;
+  flex-basis: 100%;
+  width:100%;
+}

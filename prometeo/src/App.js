@@ -3,7 +3,6 @@ import './App.css';
 import Title from './Title/Title';
 import Header from './Header/Header';
 import Mainsearch from './Mainsearch/Mainsearch';
-import Service from './Service/Service';
 import Popular from './Popular/Popular';
 
 class App extends Component {
