@@ -3,13 +3,24 @@
   margin: 90px;
 }
 
+.Popular-h2 {
+   color: DarkOrange;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 32px;
+   margin: 0 0 72px;
+   text-align: center;
+   }
+
+
 .Logo {
   background-image: url(./tuwalu-vertical.png);
   background-repeat: no-repeat;
   background-position: center;
   padding: 30px;
-  width: 200px;
-  height: 400px;
+  width: 800px;
+  height: 600px;
 }
 
 .Logo-h2 {
@@ -25,7 +36,6 @@
 .Logo-p {
    font-family: 'Helvetica Neue', sans-serif;
    font-size: 14px;
-   font-weight: bold;
    line-height: 24px;
    margin: 0 0 24px;
    text-align: justify;

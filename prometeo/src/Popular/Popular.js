@@ -3,18 +3,23 @@ import Carousel from '@brainhubeu/react-carousel';
 import Icon from 'react-fa';
 import '@brainhubeu/react-carousel/lib/style.css';
 import './Popular.css'
-
-const iconPath = process.env.PUBLIC_URL + '/img/';
-
+import ReactPlayer from "react-player";
 
 class Popular extends Component {
-	serviceImage = (name, description, imageName) => {
+	serviceImage = (name, description, url) => {
 		return (
 			<div className="Logo" style={{ 
       backgroundImage: `url(${process.env.PUBLIC_URL + 'Mainsearch/jose.png'})`}}>
 				<h2 className="Logo-h2">{name}</h2>
 				<p className="Logo-p">{description}</p>
-                                <img src={`${iconPath}${imageName}`} alt="Bla" />
+				<ReactPlayer
+					className='react-player'
+					url={url}
+					muted={true}
+					playing={true}
+					width="100%"
+					height="100%"
+				/>
 		</div>
 		)
 	}
@@ -22,7 +27,7 @@ class Popular extends Component {
 	render() {
 		return (
 			<div className="Popular">
-			    <h2>Servicios Populares</h2>
+			    <h2 className="Popular-h2">Servicios Populares</h2>
 			    <Carousel
 			      autoPlay={3000}
 			      stopAutoPlayOnHover
@@ -32,7 +37,7 @@ class Popular extends Component {
 			      addArrowClickHandler
 			    >
 				{this.props.services.map(service => {
-					return this.serviceImage(service["name"], service["description"], service["imageName"])
+					return this.serviceImage(service["name"], service["description"], service["url"])
 				})}
 			    </Carousel>
 			</div>

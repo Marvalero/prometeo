@@ -33,7 +33,8 @@
 
 .Mainsearch-h2 {
    color: Beige;
-   text-shadow: 2px 2px DarkOrange;
+   text-shadow: 2px 2px #ff0000;
+   background-color: DarkOrange;
    font-family: 'Open Sans', sans-serif;
    font-size: 30px;
    font-weight: 300;
@@ -43,11 +44,6 @@
    }
 
 .Mainsearch-p { color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: justify; text-justify: inter-word; }
-
-.player-wrapper {
-  position: relative;
-  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
-}
 
 .react-player {
   display: block;
