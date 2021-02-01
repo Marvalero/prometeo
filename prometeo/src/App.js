@@ -5,6 +5,7 @@ import Header from './Header/Header';
 import Mainsearch from './Mainsearch/Mainsearch';
 import Popular from './Popular/Popular';
 import Category from './Category/Category';
+import Footer from './Footer/Footer';
 
 class App extends Component {
     state = {
@@ -32,6 +33,7 @@ class App extends Component {
         	<Mainsearch />
         	<Popular services={this.state["services"].filter(this.checkPopular)}/>
           <Category />
+          <Footer />
         </div>
       )
     }
