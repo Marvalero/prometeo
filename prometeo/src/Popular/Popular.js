@@ -29,7 +29,7 @@ class Popular extends Component {
 			<div className="Popular">
 			    <h2 className="Popular-h2">Servicios Populares</h2>
 			    <Carousel
-			      autoPlay={3000}
+			      autoPlay={5000}
 			      stopAutoPlayOnHover
 			      offset={50}
 			      arrowLeft={<Icon className="icon-example" name="arrow-left" />}
