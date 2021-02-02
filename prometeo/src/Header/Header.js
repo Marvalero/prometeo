@@ -10,9 +10,13 @@ import React, { Component } from 'react';
 import './Header.css'
 import { Link as RouterLink } from "react-router-dom";
 
+
 const styles = theme => ({
   root: {
     backgroundColor: "DarkOrange"
+  },
+  icon: {
+    maxWidth: 30,
   },
   logo: {
     fontFamily: "Work Sans, sans-serif",
@@ -45,6 +49,7 @@ const styles = theme => ({
 });
 
 class Header extends Component {	
+	iconPath = process.env.PUBLIC_URL + '/';
 	headersData = [
 	  {
 	    label: "Blog",
@@ -82,18 +87,23 @@ class Header extends Component {
 	      );
 	    });
 	  };
-	  
+
 	render() {
 		const { classes } = this.props;
 		return(
 		    <div className={classes.header}>
-			<AppBar position="fixed" className={classes.root}>
+			<AppBar
+				position="fixed"
+				className={classes.root}>
 			  <Toolbar className={classes.toolbar}>
 				<IconButton edge="start" color="inherit" aria-label="menu">
 					<MenuIcon />
 				</IconButton>
-				<Typography variant="h6" component="h1" className={classes.logo}>Prometeo</Typography>
-				  <div className={classes.menuButton}>{this.getMenuButtons(classes.importantMenuButton, classes.menuButton)}</div>
+				<Typography variant="h6" component="h1" className={classes.logo}>
+				  <img src={this.iconPath + "logo-white192.png"} alt="icon" className={classes.icon} />
+				  Prometeo
+				</Typography>
+				<div className={classes.menuButton}>{this.getMenuButtons(classes.importantMenuButton, classes.menuButton)}</div>
 			  </Toolbar>
 			</AppBar>
 		    </div>
