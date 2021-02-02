@@ -17,8 +17,8 @@ class Popular extends Component {
 				<ReactPlayer
 					className='react-player'
 					url={videourl}
-					muted={true}
-					playing={true}
+					muted={false}
+					playing={false}
 					width="100%"
 					height="100%"
 				/>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="120mm"
+   height="120mm"
+   viewBox="-60 -60 120 120"
+   sodipodi:docname="prometeo-logo.svg"
+   version="1.1"
+   id="svg4695"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <defs
+     id="defs4697" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="49.271654"
+     inkscape:cy="226.77165"
+     inkscape:document-units="mm"
+     inkscape:current-layer="Template"
+     showgrid="false"
+     units="mm"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-grids="true"
+     id="namedview4685">
+    <sodipodi:guide
+       orientation="1,0"
+       position="226.771653543,226.771653543"
+       id="guide2827"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="226.771653543,226.771653543"
+       id="guide2829"
+       inkscape:locked="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid3072"
+       empspacing="10"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       units="mm"
+       dotted="false"
+       spacingx="0.1mm"
+       spacingy="0.1mm" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2822">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="Template"
+     style="fill:none;stroke:black;stroke-width:0.05">
+    <circle
+       cx="0"
+       cy="0"
+       r="60"
+       id="circle4688" />
+    <circle
+       cx="0"
+       cy="0"
+       r="19"
+       id="circle4690" />
+    <circle
+       cx="0"
+       cy="0"
+       r="7.5"
+       id="circle4692" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.52383238"
+       id="rect4609"
+       width="119.52617"
+       height="119.52617"
+       x="-59.763084"
+       y="-59.763084" />
+    <path
+       style="fill:#ff7f2a;stroke-width:0.35996684;fill-opacity:1;stroke:none"
+       d="m -42.75555,-51.630107 c -0.566691,0.01238 -1.009385,0.114623 -1.304887,0.320599 -3.782462,2.636379 -0.621996,34.195152 -0.243258,38.807518 0.246319,2.9997593 1.180455,17.2330571 2.952853,27.362409 A 44.877853,44.877849 0 0 0 3.3328574,55.887499 44.877853,44.877849 0 0 0 48.21061,11.009757 44.877853,44.877849 0 0 0 35.072528,-20.678579 c -3.61e-4,-0.0095 7.2e-4,-0.02012 0,-0.02952 -0.284835,-3.908883 -17.630672,-14.145818 -20.133539,-15.771755 -2.502879,-1.625938 -19.2588377,-13.409752 -21.4848262,-11.11257 -0.8306943,0.857262 -1.0424161,5.124503 -0.9674142,10.337799 -0.2050403,-0.09513 -0.5890713,-0.269043 -0.7354045,-0.338877 -3.8395231,-1.83237 -27.8199581,-14.183443 -34.5068941,-14.036602 z M 3.777197,-15.20596 A 27.548784,27.993116 0 0 1 31.325917,12.787093 27.548784,27.993116 0 0 1 3.777197,40.780143 27.548784,27.993116 0 0 1 -23.772222,12.787093 27.548784,27.993116 0 0 1 3.777197,-15.20596 Z M 3.5550292,-5.8749348 A 19.772917,19.772915 0 0 0 -16.218535,13.897933 19.772917,19.772915 0 0 0 3.5550292,33.670787 19.772917,19.772915 0 0 0 23.327902,13.897933 19.772917,19.772915 0 0 0 3.5550292,-5.8749348 Z"
+       id="path21"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="148.1236"
+       inkscape:export-ydpi="148.1236"
+       inkscape:export-filename="/home/marvalcam/workspace/prometeo/prometeo/public/logo512.png" />
+  </g>
+</svg>
