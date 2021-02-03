@@ -16,7 +16,7 @@ class Mainsearch extends Component {
 			  />
 			  <div className="Mainsearch-div">
 			      <h1 className="Mainsearch-title">Innova</h1>
-			      <h2 className="Mainsearch-h2">Mejora la productividad de tu local</h2>
+			      <h2 className="Mainsearch-h2">Impulsa tu negocio</h2>
 			  </div>
 			</div>
 		)
