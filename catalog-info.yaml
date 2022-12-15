@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: prometeo
+  annotations:
+    github.com/project-slug: Marvalero/prometeo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: Maria valero
